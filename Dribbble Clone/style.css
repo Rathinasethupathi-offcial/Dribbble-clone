@@ -82,6 +82,9 @@ body {
     display: flex;
     gap: 20px;
     padding: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
 }
 
 .cards {
@@ -93,6 +96,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex: 0 0 auto;
 }
+
 
 .cards img {
     width: 100%;
