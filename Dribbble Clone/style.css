@@ -148,7 +148,6 @@ button {
     display: flex;
     gap: 20px;
     animation: marquee 15s linear infinite;
-    
 }
 
 @keyframes marquee {
